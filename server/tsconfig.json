@@ -1,0 +1,28 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        // "module": "system",
+        "moduleResolution": "node",
+
+        "baseUrl": "./",
+        "outDir": "../dist/server",
+        // "outFile": "./dist/index.js",
+
+        // "rootDir": "../",
+        "rootDirs": [
+            "./src", "../shared"
+        ],
+
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+    },
+    "include": [
+        "./src", "../shared"
+    ],
+    "exclude": [
+        "./node_modules"
+    ]
+}
